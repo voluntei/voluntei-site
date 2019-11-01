@@ -1,2 +1,2 @@
-# voluntei-lp
-Repositório da landing page da voluntei.org
+# voluntei-site
+Repositório do site da voluntei.org
