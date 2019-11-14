@@ -34,13 +34,26 @@ module.exports = {
           include: /assets/ // See below to configure properly
         }
       }
-    }, {
+    },
+    {
       resolve: `gatsby-plugin-material-ui`,
       options: {
         disableAutoprefixing: true,
         disableMinification: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Fredoka One`,
+            variants: [`400`, `700`],
+            subsets: [`latin`],
+          }
+        ],
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

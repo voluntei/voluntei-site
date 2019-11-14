@@ -5,22 +5,21 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import "./layout.css"
-import CssBaseline from '@material-ui/core/CssBaseline';
+import React from "react";
+import PropTypes from "prop-types";
+import "./reset.css";
+import "./layout.css";
 import Container from '@material-ui/core/Container';
 
 const Layout = ({ children }) => {
   return (
     <>
-    <CssBaseline />
-    <Container maxWidth="lg">
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
+      <Container maxWidth="lg">
+        <main>{children}</main>
+        <footer>
+          © {new Date().getFullYear()}, Built with
         </footer>
-    </Container>
+      </Container>
     </>
   )
 }
