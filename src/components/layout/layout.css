@@ -1,4 +1,10 @@
 html {
     font-family: 'Fredoka One', cursive;
     font-weight: 400;
+    font-size:62.5%; 
+  }
+
+  .Container-wrapper{
+    max-width: initil;
+    padding: 2rem , 4rem;
   }

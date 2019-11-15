@@ -7,13 +7,13 @@ const Header = ({ siteTitle }) => (
 
   >
     <div>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-        >
+      <Link style={{ display: 'inline-block' }}
+        to="/"
+      >
+        <h1 style={{ fontSize: '10rem' }}>
           Voluntei
-        </Link>
       </h1>
+      </Link>
     </div>
   </header>
 )
