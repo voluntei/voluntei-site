@@ -3,7 +3,7 @@ import SocialNetwork from '../../SocialNetwork';
 
 const Text = () => {
     return (
-        <div style={{ flexBasis: '50%', fontSize: '2.5rem' }}>
+        <div style={{ fontSize: '2.9rem' }}>
             <p>Opa! Que legal você por aqui!</p>
             <p>Estamos trabalhando para te proporcionar melhor experiência.</p>
             <p>Enquanto fazemos isso, você pode nos acompanhar nas redes sociais e ficar por dentro de tudo.</p>
