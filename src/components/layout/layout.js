@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container';
 const Layout = ({ children }) => {
   return (
     <>
-      <Container style={{ minHeight: '100vh', display: 'flex' }}>
+      <Container style={{ minHeight: '100vh', display: 'flex', padding: '0 9rem' }}>
         <main style={{ position: 'relative', width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>{children}</main>
       </Container>
     </>
