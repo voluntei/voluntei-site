@@ -35,7 +35,7 @@ const Text = () => {
     return (
         <>
             <div className={'targetHeight'} style={{ fontSize: '2.9rem', padding: '3rem 0', marginTop: '-15rem' }}>
-                <Computador style={{ float: 'right', shapeOutside: polygon, marginRight: '-24rem' }} />
+                <Computador style={{ float: 'right', shapeOutside: polygon, marginRight: '-30rem' }} />
                 <p className={hightClassName} style={{ ...hedlineText, marginBottom: '2.4rem' }}> Opa! </p>
                 <p className={hightClassName} style={{ ...hedlineText, marginBottom: '3.4rem' }}>Que legal você por aqui! </p>
                 <p className={hightClassName} style={text}>Estamos trabalhando para te proporcionar melhor experiência.</p>
