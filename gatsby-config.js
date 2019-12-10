@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Voluntei`,
+    description: `Nós somos uma organização sem fins lucrativos que reúne profissionais de Tecnologia da Informação para trabalhar voluntariamente na criação de sites para ONGs.`,
+    author: `@voluntei`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
