@@ -1,32 +1,24 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../assets/logo.svg";
 
 const Header = ({ siteTitle }) => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
+
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+    <div style={{ textAlign: 'center' }}>
+      <Link style={{ display: 'inline-block' }}
+        to="/"
+      >
+        <Logo style={{ width: '19rem' }} />
+        <h1 style={{ fontSize: '4.8rem', textTransform: 'Uppercase' }}>
+          Voluntei
       </h1>
+        <h2 style={{ fontSize: '3.5rem', marginTop: '0.5rem' }}>
+          conectando propósitos
+      </h2>
+      </Link>
     </div>
   </header>
 )
