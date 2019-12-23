@@ -12,7 +12,7 @@ const ConstructionPage = () => {
   height: auto;
   position: fixed;
   top: 0;
-  left: 0
+  left: 0;
   display:none;
 
   @media ${device.tablet} {

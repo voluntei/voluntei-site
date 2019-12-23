@@ -11,10 +11,10 @@ const SocialNetwork = (props) => {
             Discord: 'https://www.discord.gg/UmfS2dJ',
             Facebook: 'https://www.facebook.com/voluntei/',
             Instagram: 'https://www.instagram.com/voluntei/',
-            Twitter: 'https://twitter.com/gatsbyjs',
+            Twitter: 'https://twitter.com/voluntei/',
             Linkedin: 'https://www.linkedin.com/company/voluntei/',
         },
-        style:{
+        style: {
             width: '5.7rem',
             marginRight: '1.2rem',
             height: 'auto',
