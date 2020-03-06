@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Voluntei",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Voluntei front end site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Paulo Sousa <p.sousa.design@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.6.1",
     "@material-ui/styles": "^4.6.0",
